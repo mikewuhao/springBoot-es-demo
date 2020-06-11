@@ -15,6 +15,7 @@ public class EsController {
     @Autowired
     private UserRepository  userRepository;
 
+
     /**
      * 数据添加进es
      */
