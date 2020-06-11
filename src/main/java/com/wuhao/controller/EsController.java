@@ -35,6 +35,7 @@ public class EsController {
     public String query(){
         List<User> userList = userRepository.findByUserNameLike("mike");
         return userList.toString();
+
     }
 
 
